@@ -15,6 +15,7 @@ Answer user questions clearly while preserving durable learning notes when the a
 
 - Load `.claude/layer3/math-derivation-template.md` when the question requires a durable derivation, proof, gradient/loss calculation, tensor shape explanation, or LaTeX-ready note.
 - Load `.claude/layer3/paper-reading-guide.md` when the question is about a named paper, PDF, experiment, ablation, author claim, or paper-to-interview summary.
+- Load `.claude/layer3/next-task-recommendation.md` when the question is broad planning, such as "下一步做什么", "我现在应该让你做什么", or "推荐一个任务".
 - If the user directly asks for Layer 3 style work, treat the user's request as entering this Layer 2 question workflow first, then load the matching Layer 3 file.
 
 ## Procedure

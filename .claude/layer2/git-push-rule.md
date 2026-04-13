@@ -15,6 +15,7 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 
 - This SOP normally does not trigger Layer 3 because it is an operational cleanup and Git workflow.
 - If the completion check reveals that a paper note or derivation note is missing, return to `.claude/layer2/algorithm-description-design.md` or `.claude/layer2/ask-my-question.md`; those Layer 2 workflows may then load the appropriate Layer 3 reference.
+- If the user asks what to do next after a commit, push, cleanup, or completion check, load `.claude/layer3/next-task-recommendation.md` through this Layer 2 workflow and provide prioritized next-task options.
 
 ## Preconditions
 
@@ -22,6 +23,8 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 - Confirm the repository remote is `git@github.com:ZhengtongDu/The-Agent-Odyssey.git` unless the user specifies another remote.
 - Do not commit `node_modules/`, VitePress build output, secrets, caches, or unrelated local files.
 - If there are unexpected user changes, do not overwrite or revert them.
+- Treat commit and push as a synchronized operation: after creating a local commit, push it in the same task unless the user explicitly says not to push.
+- The expected final state after this SOP is that local `main` and `origin/main` point to the same commit.
 
 ## Completion Check Procedure
 
@@ -34,7 +37,8 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 7. Do not delete tracked or user-provided files without explicit user confirmation; if deletion is intended, stage it intentionally and mention it in the summary.
 8. Confirm `.gitignore` covers recurring generated directories such as `node_modules/`, `docs/.vitepress/dist/`, and local caches.
 9. Check documentation indexes when SOPs, weekly docs, or VitePress pages changed.
-10. Summarize verification, cleanup candidates, and remaining risks.
+10. Update `.claude/project-summary.md` if the completed task materially changes the project state.
+11. Summarize verification, cleanup candidates, and remaining risks.
 
 ## Git Procedure
 
@@ -42,13 +46,15 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 2. Stage only files related to the completed task.
 3. Use a concise imperative commit message, for example `add weekly task initialization sop`.
 4. Commit after verification and cleanup decisions are complete.
-5. Push to `origin main` only when the user has requested or approved it.
+5. Push to `origin main` immediately after committing unless the user explicitly requests a local-only commit.
+6. Re-check `git status --short --branch` after push and confirm that local and remote are aligned.
 
 ## Post-Push Procedure
 
 - Report commit hash and branch.
 - Mention whether GitHub Pages workflow was added or updated.
 - Mention any process files removed or intentionally left untracked.
+- If the user asks for the next task, use `.claude/layer3/next-task-recommendation.md` before answering.
 - If push fails because of authentication/network issues, report the exact blocker and next action.
 
 ## Safety Rules
@@ -57,4 +63,4 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 - Never amend a commit unless explicitly requested.
 - Never include credentials or local-only environment files.
 - Do not use broad cleanup commands; prefer targeted file review and user confirmation.
-- Ask whether to commit and push after each major task or daily task.
+- Ask whether to commit and push after each major task or daily task, and treat the approved action as commit-plus-push rather than commit-only.

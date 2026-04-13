@@ -1,0 +1,48 @@
+# Project Summary
+
+## Snapshot
+
+- Date: 2026-04-13
+- Project: The Agent Odyssey
+- Goal: Build a six-week LLM and Agent architecture learning/code/documentation system for internship preparation.
+- Site stack: VitePress with `markdown-it-mathjax3`, deployed through GitHub Actions to GitHub Pages.
+- Local environment: use the `tutorial` conda environment for Node/VitePress commands.
+- Remote: `git@github.com:ZhengtongDu/The-Agent-Odyssey.git`
+
+## Current State
+
+- VitePress project is initialized under `docs/`.
+- GitHub Pages workflow exists at `.github/workflows/deploy.yml`.
+- Progressive Disclosure AI memory exists under `CLAUDE.md`, `.claude/layer2/`, and `.claude/layer3/`.
+- Day N progress is tracked in `.claude/progress.md`; current learning state is `Day 0 / 36`, with Week 1 Day 1 as the next formal learning day.
+- `init-guide.html` was removed as a generated/process HTML artifact in commit `2c2445b`.
+- Root process source files still include `init-guide.md` and `大模型Agent实习六周学习规划---Gemini.md`.
+
+## GitHub Pages Status
+
+- Last checked: 2026-04-13 19:53 Asia/Shanghai.
+- Repository API reports `has_pages: false`.
+- GitHub Pages API for `ZhengtongDu/The-Agent-Odyssey` returns 404.
+- Site URL `https://zhengtongdu.github.io/The-Agent-Odyssey/` returns 404.
+- Recent workflow runs failed: `904267e` failed at deploy, and `1a2819a` failed at `actions/configure-pages@v5`.
+- Likely required action: in GitHub repository Settings -> Pages, set Build and deployment Source to GitHub Actions, then rerun or trigger the workflow. GitHub docs say configuring a publishing source requires admin or maintainer permissions.
+
+## Recent Git History
+
+- `2c2445b expand sop trigger interfaces`: added `init-weekly-tasks`, expanded Layer 2/3 trigger interfaces, and removed generated `init-guide.html`.
+- `1a2819a configure github pages workflow`: added `actions/configure-pages` to the Pages workflow and pushed to `origin/main`.
+- `904267e initialize vitepress learning site`: initial VitePress site, Layer 2/3 memory structure, and GitHub Pages workflow.
+
+## Current SOP Map
+
+- Layer 2 handles entry workflows and task-level behavior.
+- Layer 3 handles deep references and must be triggered through Layer 2 interfaces.
+- Current Layer 3 references cover paper reading, math derivation, and next-task recommendation.
+- Commit/push behavior should be synchronized: approved Git snapshots should be committed and pushed in the same task, ending with local `main` aligned to `origin/main`.
+
+## Known Next Needs
+
+- Keep `.claude/project-summary.md` updated after major tasks or commits.
+- Enable GitHub Pages source as GitHub Actions in repository settings, then rerun deployment.
+- Start Week 1 documentation with `.claude/layer2/init-weekly-tasks.md` when the user is ready.
+- Begin technical learning notes from least squares and gradient descent, or initialize the first weekly task page first.

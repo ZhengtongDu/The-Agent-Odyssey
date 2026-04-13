@@ -19,9 +19,15 @@
 
 ## Directory Index
 
+Memory references:
+
+- `.claude/project-summary.md`: Current project snapshot used by status reporting workflows.
+- `.claude/progress.md`: Canonical Day N progress tracker for current learning day, total planned days, and remaining days.
+- `.claude/workflow-overview.md`: Chinese overview of all Layer 2/3 workflows and what happens when each SOP is invoked.
+
 Layer 3 usage rule:
 
-- Layer 3 files are deep references, not first-entry workflows. Always select a Layer 2 workflow first, then load the matching Layer 3 file through that Layer 2 workflow's interface when the task requires deeper paper reading or math derivation.
+- Layer 3 files are deep references, not first-entry workflows. Always select a Layer 2 workflow first, then load the matching Layer 3 file through that Layer 2 workflow's interface when the task requires deeper paper reading, math derivation, or next-task recommendation.
 
 Layer 2 workflows:
 
@@ -30,6 +36,7 @@ Layer 2 workflows:
 - `.claude/layer2/leetcode-guideline.md`: Daily LeetCode topic, problem selection, and review SOP.
 - `.claude/layer2/algorithm-description-design.md`: SOP for introducing a new algorithm, model, or framework.
 - `.claude/layer2/git-push-rule.md`: Post-task check, cleanup, commit, and push SOP.
+- `.claude/layer2/tell-me-status.md`: SOP for answering "告诉我现状" with project summary, recent Git history, and optional next-task recommendations.
 - `.claude/layer2/ask-my-question.md`: SOP for handling user questions and long-form answer notes.
 - `.claude/layer2/add-more-layer2.md`: SOP for adding new Layer 2 workflows.
 
@@ -37,6 +44,7 @@ Layer 3 deep references:
 
 - `.claude/layer3/paper-reading-guide.md`: Paper reading protocol.
 - `.claude/layer3/math-derivation-template.md`: ML formula derivation template.
+- `.claude/layer3/next-task-recommendation.md`: Recommendation protocol for choosing the next useful project task.
 
 Project content:
 
