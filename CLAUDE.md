@@ -19,12 +19,17 @@
 
 ## Directory Index
 
+Layer 3 usage rule:
+
+- Layer 3 files are deep references, not first-entry workflows. Always select a Layer 2 workflow first, then load the matching Layer 3 file through that Layer 2 workflow's interface when the task requires deeper paper reading or math derivation.
+
 Layer 2 workflows:
 
 - `.claude/layer2/workflow-daily.md`: Daily learning task SOP.
+- `.claude/layer2/init-weekly-tasks.md`: SOP for starting a new weekly documentation section.
 - `.claude/layer2/leetcode-guideline.md`: Daily LeetCode topic, problem selection, and review SOP.
 - `.claude/layer2/algorithm-description-design.md`: SOP for introducing a new algorithm, model, or framework.
-- `.claude/layer2/git-push-rule.md`: Commit and push SOP.
+- `.claude/layer2/git-push-rule.md`: Post-task check, cleanup, commit, and push SOP.
 - `.claude/layer2/ask-my-question.md`: SOP for handling user questions and long-form answer notes.
 - `.claude/layer2/add-more-layer2.md`: SOP for adding new Layer 2 workflows.
 

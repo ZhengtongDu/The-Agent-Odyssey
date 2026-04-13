@@ -4,6 +4,19 @@
 
 Build interview-ready algorithm skill while preserving enough daily time for LLM and Agent study.
 
+## Trigger
+
+- The user asks to do LeetCode, algorithm practice, coding interview preparation, or a data structure topic.
+- The user says "刷题", "今天的 LeetCode", "算法题", "笔试题", "高频题", or names a problem/topic such as DP, graph, tree, two pointers, or sliding window.
+- A daily workflow reaches its LeetCode block and needs topic selection, problem selection, or review.
+- The user asks why a solution is wrong, how to optimize it, or how to summarize a reusable pattern.
+
+## Layer 3 Interfaces
+
+- LeetCode work normally stays in Layer 2 and does not trigger Layer 3.
+- If the user asks for a formal proof, recurrence derivation, probability analysis, or matrix-style derivation for an algorithm, route through `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/math-derivation-template.md`.
+- If the user asks to connect an interview algorithm to a research paper, route through `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/paper-reading-guide.md`.
+
 ## Topic Selection
 
 1. Follow the 6-week progression unless the user requests a different topic:

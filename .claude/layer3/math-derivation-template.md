@@ -4,6 +4,16 @@
 
 Standardize mathematical derivations for ML, deep learning, and Agent-related algorithms.
 
+## Layer 2 Trigger Interface
+
+Layer 3 is not a first-entry workflow. Use this template only after a Layer 2 workflow decides that durable mathematical derivation is required.
+
+- From `.claude/layer2/algorithm-description-design.md`: trigger when the topic needs derivation of losses, gradients, attention equations, backpropagation, optimization, probability, contrastive learning, LoRA-style matrix decomposition, or tensor shapes.
+- From `.claude/layer2/ask-my-question.md`: trigger when the user says "推导", "证明", "公式怎么来", "梯度怎么算", "反向传播", "矩阵维度", or "写成 LaTeX".
+- From `.claude/layer2/leetcode-guideline.md`: trigger only through `.claude/layer2/ask-my-question.md` when the user wants a formal recurrence proof, probability analysis, or reusable derivation note.
+- From `.claude/layer2/workflow-daily.md`: trigger only after the daily technical block has been classified as a derivation task by a Layer 2 workflow.
+- From `.claude/layer2/init-weekly-tasks.md`: reference this template when planning a week that contains derivation-heavy deliverables; execute it later through the relevant daily or algorithm-description workflow.
+
 ## Template
 
 ```markdown

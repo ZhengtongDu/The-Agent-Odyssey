@@ -4,6 +4,19 @@
 
 Use this SOP when introducing a new algorithm, model, framework, or Agent pattern.
 
+## Trigger
+
+- The user asks to learn, explain, derive, implement, or write notes for a model, algorithm, framework, or Agent pattern.
+- The user says "介绍这个算法", "推导这个模型", "写一篇文档", "从第一性原理讲", or "帮我整理成博客".
+- The user names a technical topic such as least squares, gradient descent, MLP, CNN, ResNet, RNN, Transformer, CLIP, GPT, RAG, ReAct, Tool Calling, or Agent memory.
+- The desired output should become a structured docs page rather than only a short chat answer.
+
+## Layer 3 Interfaces
+
+- Load `.claude/layer3/math-derivation-template.md` when the topic requires a reusable derivation, proof, loss/gradient calculation, tensor shape table, or LaTeX-heavy formula section.
+- Load `.claude/layer3/paper-reading-guide.md` when the topic is anchored in a named paper, PDF, original architecture paper, method comparison, experiment table, ablation, or later-influence analysis.
+- If both apply, read the paper guide first to understand the method, then use the math derivation template for the specific equations.
+
 ## Explanation Order
 
 1. Background: what problem existed before this method?

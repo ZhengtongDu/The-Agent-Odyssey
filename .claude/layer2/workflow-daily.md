@@ -4,6 +4,19 @@
 
 Use this SOP for each 2-3 hour daily learning block during the 6-week LLM and Agent preparation plan.
 
+## Trigger
+
+- The user says to start today's learning task, daily task, or current day plan.
+- The user says "开始今天的任务", "继续今天的学习", "按日常流程推进", or similar.
+- The user asks for a combined daily block that includes LeetCode plus AI/ML/Agent study.
+- The task is not a one-off question but a full daily learning session with outputs to update.
+
+## Layer 3 Interfaces
+
+- If the daily technical block requires paper-level analysis, enter through `.claude/layer2/algorithm-description-design.md` or `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/paper-reading-guide.md`.
+- If the daily technical block requires a durable formula derivation, enter through `.claude/layer2/algorithm-description-design.md` or `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/math-derivation-template.md`.
+- Do not load Layer 3 directly from the daily workflow without first identifying the Layer 2 task type.
+
 ## Default Time Split
 
 - LeetCode: 45-60 minutes.
