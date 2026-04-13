@@ -16,6 +16,8 @@
 - Prefer first-principles reasoning: define the problem, derive the math, implement the core, then summarize tradeoffs.
 - Keep notes structured for GitHub Pages reuse. Avoid dumping raw chat transcripts into final docs without editing.
 - 每次完成一个大任务或当日任务后，询问我是否需要提交并推送修改。
+- 每次创建完某一天的任务包后，直接提交并推送，方便我在线阅读和完成。
+- 创建完某一天的任务并推送后，不要默认该天已经完成；只有我明确反馈完成后，才推进到下一天或添加更多任务。
 
 ## Directory Index
 

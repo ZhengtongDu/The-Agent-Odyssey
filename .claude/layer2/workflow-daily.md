@@ -35,11 +35,13 @@ Use this SOP for each 2-3 hour daily learning block during the 6-week LLM and Ag
 6. For the technical topic, use `.claude/layer2/algorithm-description-design.md` when deriving an algorithm/model.
 7. Produce one concrete artifact: code in `src/`, a note under `docs/`, or both.
 8. Update the GitHub Pages docs only after the idea is technically checked.
-9. If several days of learning tasks have been completed ahead of schedule or the current day finishes with meaningful time/energy left, proactively ask whether the user wants to add another small task today.
-10. When the user agrees to add more work, extract one small, self-contained task from the next day's plan and explicitly mark it as pulled into today's task list.
-11. After the daily task is completed, update `.claude/progress.md` with completed Day N, next Day N, remaining days, pulled-forward tasks, and carry-over items.
-12. End by summarizing what changed, what was verified, current Day N progress, what was pulled forward from a future day if anything, and what remains unclear.
-13. Ask whether the user wants to commit and push changes after a major task or daily task.
+9. If the current work is creating a Day N task package for the user to study later, push it immediately after verification so it is available online.
+10. When only the task package has been created, update `.claude/progress.md` to mark the day as active/prepared but not completed.
+11. Only after the user explicitly confirms that Day N is finished should `.claude/progress.md` advance completed learning days and move the active day to the next day.
+12. If several days of learning tasks have been completed ahead of schedule or the current day finishes with meaningful time/energy left, proactively ask whether the user wants to add another small task today.
+13. When the user agrees to add more work, extract one small, self-contained task from the next day's plan and explicitly mark it as pulled into today's task list.
+14. End by summarizing what changed, what was verified, current Day N progress, whether the day is only prepared or actually completed, what was pulled forward from a future day if anything, and what remains unclear.
+15. Ask whether the user wants to commit and push changes after a major task or daily task. If the current task is day-package creation, default to commit-and-push immediately.
 
 ## Quality Bar
 

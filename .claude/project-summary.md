@@ -14,7 +14,9 @@
 - VitePress project is initialized under `docs/`.
 - GitHub Pages workflow exists at `.github/workflows/deploy.yml`.
 - Progressive Disclosure AI memory exists under `CLAUDE.md`, `.claude/layer2/`, and `.claude/layer3/`.
-- Day N progress is tracked in `.claude/progress.md`; current learning state is `Day 0 / 36`, with Week 1 Day 1 as the next formal learning day.
+- Day N progress is tracked in `.claude/progress.md`; the Day 1 task package has been created and pushed, but Day 1 is not yet counted as completed until the user confirms completion.
+- Week 1 and Day 1 docs have been initialized under `docs/weeks/`, `docs/notes/week-01/`, and `docs/leetcode/`.
+- A NumPy linear regression reference implementation exists at `src/week01/linear_regression_numpy.py`.
 - `init-guide.html` was removed as a generated/process HTML artifact in commit `2c2445b`.
 - Root process source files still include `init-guide.md` and `大模型Agent实习六周学习规划---Gemini.md`.
 
@@ -46,4 +48,4 @@
 
 - Keep `.claude/project-summary.md` updated after major tasks or commits.
 - Start Week 1 documentation with `.claude/layer2/init-weekly-tasks.md` when the user is ready.
-- Begin technical learning notes from least squares and gradient descent, or initialize the first weekly task page first.
+- Wait for the user to work through Day 1 online, answer questions as needed, then either mark Day 1 completed or create the next task package.

@@ -10,9 +10,9 @@
 
 ## Current Progress
 
-- Current phase: setup and memory architecture initialization.
-- Current global day: `Day 0`.
-- Current week/day: pre-Week 1.
+- Current phase: Week 1 is initialized and the Day 1 task package is prepared for the user.
+- Current global day: `Day 1`.
+- Current week/day: Week 1 Day 1 active, not yet confirmed completed.
 - Next learning day: `Day 1`, Week 1 Day 1.
 - Total planned learning days: `36`.
 - Completed learning days: `0`.
@@ -39,6 +39,8 @@
 
 ## Update Rules
 
-- Update this file after completing a daily learning task.
+- Update this file after creating or completing a daily learning task.
+- When a Day N package is created and pushed for the user, mark that day as active/prepared but do not increment completed learning days.
+- Only after the user explicitly confirms Day N is completed should you increment completed learning days and advance the next learning day.
 - Record the completed Day N, next Day N, remaining days, carry-over items, and pulled-forward tasks.
 - Use this file when answering "告诉我现状" or when initializing a new weekly task page.

@@ -10,7 +10,7 @@
 
 触发场景：你说开始今天的学习任务、继续今天的学习、按日常流程推进，或需要同时处理 LeetCode 和 AI/ML/Agent 学习。
 
-调用后会发生什么：先读取 `.claude/progress.md`，明确当前是 `Day N / Total Days`、Week 几 Day 几、还剩多少学习日，再按默认 2-3 小时节奏切分 LeetCode、技术深潜、文档复盘。遇到技术推导或论文阅读时，不直接进 Layer 3，而是先转到 `algorithm-description-design.md` 或 `ask-my-question.md`，再由它们触发 Layer 3。如果连续几天或当天任务提前完成，会主动询问你是否再加做一小部分任务；你同意后，会从下一天计划里抽取一个自洽小任务并标记为并入今天。任务完成后会更新 Day N 进度、剩余天数、carry-over 和 pulled-forward tasks。
+调用后会发生什么：先读取 `.claude/progress.md`，明确当前是 `Day N / Total Days`、Week 几 Day 几、还剩多少学习日，再按默认 2-3 小时节奏切分 LeetCode、技术深潜、文档复盘。遇到技术推导或论文阅读时，不直接进 Layer 3，而是先转到 `algorithm-description-design.md` 或 `ask-my-question.md`，再由它们触发 Layer 3。如果当前是在“创建某一天的任务包”，则验证通过后会直接提交并推送，方便你在线阅读；但这一天只会被标记为 active/prepared，不会默认算完成。只有你明确反馈完成后，Day N 才会推进。如果连续几天或当天任务提前完成，会主动询问你是否再加做一小部分任务；你同意后，会从下一天计划里抽取一个自洽小任务并标记为并入今天。任务完成后会更新 Day N 进度、剩余天数、carry-over 和 pulled-forward tasks。
 
 产出：当天的学习任务、代码或文档改动、验证结果、下一步或是否提交推送的询问。
 

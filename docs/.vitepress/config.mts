@@ -19,6 +19,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '路线图', link: '/roadmap' },
+      { text: 'Week 1', link: '/weeks/week-01' },
       { text: 'LeetCode', link: '/leetcode/' },
       { text: '笔记模板', link: '/notes/first-principles' },
       { text: 'GitHub', link: 'https://github.com/ZhengtongDu/The-Agent-Odyssey' }
@@ -28,13 +29,16 @@ export default defineConfig({
         text: 'Start',
         items: [
           { text: '总览', link: '/' },
-          { text: '六周路线图', link: '/roadmap' }
+          { text: '六周路线图', link: '/roadmap' },
+          { text: 'Week 1 任务总览', link: '/weeks/week-01' }
         ]
       },
       {
         text: 'Practice',
         items: [
           { text: 'LeetCode SOP', link: '/leetcode/' },
+          { text: 'Day 1 Arrays And Hash', link: '/leetcode/day-01-arrays-hash' },
+          { text: 'Day 1 Least Squares And GD', link: '/notes/week-01/day-01-least-squares-gradient-descent' },
           { text: 'First Principles Note', link: '/notes/first-principles' }
         ]
       }

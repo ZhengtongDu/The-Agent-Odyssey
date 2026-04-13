@@ -10,6 +10,7 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 - The user says "提交", "推送", "commit", "push", "更新 git 记录", "发到远程仓库", "收尾检查", "任务完成检查", or "清理过程文件".
 - A major task or daily task has been completed and project rules require a completion check plus asking whether to commit and push.
 - The user asks to inspect Git status, clean generated files, prepare a clean commit, or explain what changed before pushing.
+- A new Day N task package has just been created and needs to be available on GitHub Pages immediately.
 
 ## Layer 3 Interfaces
 
@@ -25,6 +26,7 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 - If there are unexpected user changes, do not overwrite or revert them.
 - Treat commit and push as a synchronized operation: after creating a local commit, push it in the same task unless the user explicitly says not to push.
 - The expected final state after this SOP is that local `main` and `origin/main` point to the same commit.
+- For daily task creation, treat "create today's task package" as an immediate push boundary: once verification passes, commit and push so the user can read the task online.
 
 ## Completion Check Procedure
 
@@ -39,6 +41,7 @@ Use this SOP at the end of a task to verify results, clean process files, protec
 9. Check documentation indexes when SOPs, weekly docs, or VitePress pages changed.
 10. Update `.claude/project-summary.md` if the completed task materially changes the project state.
 11. Summarize verification, cleanup candidates, and remaining risks.
+12. If the task created a new Day N package, update `.claude/progress.md` to mark that day as active/prepared rather than completed, unless the user explicitly confirms completion.
 
 ## Git Procedure
 
