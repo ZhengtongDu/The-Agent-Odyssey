@@ -20,15 +20,17 @@
 
 ## GitHub Pages Status
 
-- Last checked: 2026-04-13 19:53 Asia/Shanghai.
-- Repository API reports `has_pages: false`.
-- GitHub Pages API for `ZhengtongDu/The-Agent-Odyssey` returns 404.
-- Site URL `https://zhengtongdu.github.io/The-Agent-Odyssey/` returns 404.
-- Recent workflow runs failed: `904267e` failed at deploy, and `1a2819a` failed at `actions/configure-pages@v5`.
-- Likely required action: in GitHub repository Settings -> Pages, set Build and deployment Source to GitHub Actions, then rerun or trigger the workflow. GitHub docs say configuring a publishing source requires admin or maintainer permissions.
+- Last checked: 2026-04-13 20:08 CST.
+- Site URL `https://zhengtongdu.github.io/The-Agent-Odyssey/` returns `HTTP/2 200`.
+- Latest deployment run `24342459675` for commit `cf512e2` completed successfully.
+- Build job passed `actions/configure-pages@v5`, dependency install, VitePress build, and Pages artifact upload.
+- Deploy job passed `actions/deploy-pages@v4`.
+- Earlier failures were caused by Pages not being configured for GitHub Actions yet; after the repository Pages setting was updated and an empty trigger commit was pushed, deployment succeeded.
 
 ## Recent Git History
 
+- `cf512e2 trigger pages deployment`: empty commit used to retrigger the GitHub Pages workflow after Pages settings were updated.
+- `f1308d6 add status and progress sop memory`: added status-reporting SOP, Day N progress tracker, workflow overview, and next-task recommendation Layer 3 reference.
 - `2c2445b expand sop trigger interfaces`: added `init-weekly-tasks`, expanded Layer 2/3 trigger interfaces, and removed generated `init-guide.html`.
 - `1a2819a configure github pages workflow`: added `actions/configure-pages` to the Pages workflow and pushed to `origin/main`.
 - `904267e initialize vitepress learning site`: initial VitePress site, Layer 2/3 memory structure, and GitHub Pages workflow.
@@ -43,6 +45,5 @@
 ## Known Next Needs
 
 - Keep `.claude/project-summary.md` updated after major tasks or commits.
-- Enable GitHub Pages source as GitHub Actions in repository settings, then rerun deployment.
 - Start Week 1 documentation with `.claude/layer2/init-weekly-tasks.md` when the user is ready.
 - Begin technical learning notes from least squares and gradient descent, or initialize the first weekly task page first.
