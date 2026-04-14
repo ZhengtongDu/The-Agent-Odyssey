@@ -10,7 +10,7 @@
 
 ## Current Progress
 
-- Current phase: Week 1 is initialized and the Day 1 task package is prepared for the user, including the LeetCode collection and Top 100 Liked snapshot.
+- Current phase: Week 1 is initialized and the Day 1 task package is prepared for the user, including the reorganized navigation, LeetCode collection, Top 100 Liked snapshot, and textbook-level technical note.
 - Current global day: `Day 1`.
 - Current week/day: Week 1 Day 1 active, not yet confirmed completed.
 - Next learning day: `Day 1`, Week 1 Day 1.

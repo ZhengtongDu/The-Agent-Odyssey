@@ -1,4 +1,4 @@
-# First Principles Note Template
+# 第一性原理笔记模板
 
 ## Problem
 

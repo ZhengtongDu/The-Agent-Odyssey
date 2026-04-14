@@ -34,7 +34,9 @@
   - 主题：最小二乘目标函数、闭式解直觉、梯度下降更新规则
   - 代码：纯 NumPy 实现一元/多元线性回归训练
 - Deliverables:
-  - [Day 1 Least Squares And GD](/notes/week-01/day-01-least-squares-gradient-descent)
+  - [Day 1 任务包](/days/day-01)
+  - [Day 1 最小二乘与梯度下降](/notes/week-01/day-01-least-squares-gradient-descent)
+  - [技术学习计划](/technical/)
   - [LeetCode 练习合集](/leetcode/)
   - [Top 100 Liked 题单快照](/leetcode/top-100-liked)
   - [Day 1 Arrays And Hash](/leetcode/day-01-arrays-hash)
@@ -44,7 +46,9 @@
 
 - Documentation:
   - Week 1 总览页
-  - Day 1 数学推导与实现笔记
+  - Day 1 任务包
+  - Day 1 教材式数学推导与实现笔记
+  - 技术学习计划索引
   - LeetCode 练习合集与 Top 100 Liked 题单快照
   - Day 1 LeetCode 题解页
 - Code:
@@ -55,7 +59,7 @@
 ## Open Questions
 
 - Day 2 之后是否继续按每日单独 LeetCode 题解页沉淀？
-- Week 1 是否需要加入损失曲线图或参数收敛图？
+- Day 2 是否加入损失曲线图或参数收敛图？
 
 ## End-Of-Week Review
 

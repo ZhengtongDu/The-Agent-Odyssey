@@ -36,6 +36,7 @@ Layer 2 workflows:
 - `.claude/layer2/workflow-daily.md`: Daily learning task SOP.
 - `.claude/layer2/init-weekly-tasks.md`: SOP for starting a new weekly documentation section.
 - `.claude/layer2/leetcode-guideline.md`: Daily LeetCode topic, problem selection, and review SOP.
+- `.claude/layer2/technical-learning-sop.md`: Daily AI/ML/Agent technical learning SOP for textbook-level notes.
 - `.claude/layer2/algorithm-description-design.md`: SOP for introducing a new algorithm, model, or framework.
 - `.claude/layer2/git-push-rule.md`: Post-task check, cleanup, commit, and push SOP.
 - `.claude/layer2/tell-me-status.md`: SOP for answering "告诉我现状" with project summary, recent Git history, and optional next-task recommendations.

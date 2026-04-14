@@ -10,8 +10,8 @@ hero:
       text: 查看路线图
       link: /roadmap
     - theme: alt
-      text: LeetCode 合集
-      link: /leetcode/
+      text: Day 1 任务包
+      link: /days/day-01
 
 features:
   - title: Math First
@@ -44,3 +44,10 @@ $$
 - `src/`: 后续 NumPy/PyTorch/Agent 代码实现。
 - `.claude/`: AI 协作记忆和 SOP，按 Progressive Disclosure 方式拆成 Layer 2/3。
 - `CLAUDE.md`: AI 协作轻量索引和元数据入口。
+
+## 主目录
+
+- [周计划](/weeks/week-01)：按 Week 管理全局路线和交付物。
+- [日计划](/days/)：按 Day 管理每天的 LeetCode、技术学习、代码和复盘。
+- [LeetCode计划](/leetcode/)：维护 Top 100 Liked 题单、每日题目和 Python 题解。
+- [技术学习计划](/technical/)：维护 AI/ML/Agent 主线的教材式学习章节。

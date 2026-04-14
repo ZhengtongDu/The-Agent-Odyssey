@@ -17,6 +17,8 @@
 - Day N progress is tracked in `.claude/progress.md`; the Day 1 task package has been created and pushed, but Day 1 is not yet counted as completed until the user confirms completion.
 - Week 1 and Day 1 docs have been initialized under `docs/weeks/`, `docs/notes/week-01/`, and `docs/leetcode/`.
 - LeetCode practice now has a dedicated collection page, a Top 100 Liked snapshot, and a Day 1 Arrays/Hash page with 4 Python solutions.
+- Site navigation is organized around 总览、周计划、日计划、LeetCode计划、技术学习计划.
+- Daily technical learning now has a dedicated Layer 2 SOP and Day 1 has been expanded into a textbook-level least-squares and gradient-descent chapter.
 - A NumPy linear regression reference implementation exists at `src/week01/linear_regression_numpy.py`.
 - `init-guide.html` was removed as a generated/process HTML artifact in commit `2c2445b`.
 - Root process source files still include `init-guide.md` and `大模型Agent实习六周学习规划---Gemini.md`.
@@ -50,3 +52,4 @@
 - Keep `.claude/project-summary.md` updated after major tasks or commits.
 - Wait for the user to work through Day 1 online, answer questions as needed, then either mark Day 1 completed or create the Day 2 task package.
 - Future daily LeetCode task packages should use 3-5 problems from `docs/leetcode/top-100-liked.md` and link back to `docs/leetcode/`.
+- Future daily technical task packages should follow `.claude/layer2/technical-learning-sop.md` and link through `docs/technical/` plus `docs/days/`.

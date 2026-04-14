@@ -34,6 +34,14 @@ Layer 3 接口：只有当你要求形式化证明、递推推导、概率分析
 
 产出：题型总结、解法推导、复杂度分析、必要时更新 `docs/leetcode/`。
 
+### `.claude/layer2/technical-learning-sop.md`
+
+触发场景：你说技术学习、技术学习计划、更新 Day N 技术内容、今天的技术部分，或要求把技术章节写得像 textbook 一样详细。
+
+调用后会发生什么：把每天 AI/ML/Agent 技术学习块组织成自包含章节，要求先讲问题背景，再定义符号和 shape，然后给出核心直觉、形式定义、推导或机制、算法流程、代码映射、具体例子、失败模式、自测题和面试摘要。需要公式推导时再进入 `math-derivation-template.md`，需要论文细节时再进入 `paper-reading-guide.md`。
+
+产出：位于 `docs/notes/week-0N/` 的教材式技术章节、`docs/technical/` 索引更新、Day 页面和周页面中的技术学习链接。
+
 ### `.claude/layer2/algorithm-description-design.md`
 
 触发场景：你要求介绍、推导、实现或整理一个算法、模型、框架或 Agent pattern，例如最小二乘、梯度下降、MLP、Transformer、CLIP、GPT、RAG、ReAct。

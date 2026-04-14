@@ -14,8 +14,9 @@ Use this SOP for each 2-3 hour daily learning block during the 6-week LLM and Ag
 
 ## Layer 3 Interfaces
 
-- If the daily technical block requires paper-level analysis, enter through `.claude/layer2/algorithm-description-design.md` or `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/paper-reading-guide.md`.
-- If the daily technical block requires a durable formula derivation, enter through `.claude/layer2/algorithm-description-design.md` or `.claude/layer2/ask-my-question.md`, then load `.claude/layer3/math-derivation-template.md`.
+- For the daily technical block, use `.claude/layer2/technical-learning-sop.md` as the primary content-quality workflow.
+- If the daily technical block requires paper-level analysis, enter through `.claude/layer2/technical-learning-sop.md`, then load `.claude/layer3/paper-reading-guide.md`.
+- If the daily technical block requires a durable formula derivation, enter through `.claude/layer2/technical-learning-sop.md`, then load `.claude/layer3/math-derivation-template.md`.
 - If the daily block is complete and the user asks what to do next, load `.claude/layer3/next-task-recommendation.md` to choose a carry-over or next-day task.
 - Do not load Layer 3 directly from the daily workflow without first identifying the Layer 2 task type.
 
@@ -32,7 +33,7 @@ Use this SOP for each 2-3 hour daily learning block during the 6-week LLM and Ag
 3. Identify the current week/day topic from `docs/roadmap.md`, `.claude/progress.md`, or the user's latest instruction.
 4. State the Day N context before starting, for example `Day 7 / 36, Week 2 Day 1, 29 learning days remaining`.
 5. Start with LeetCode using `.claude/layer2/leetcode-guideline.md`.
-6. For the technical topic, use `.claude/layer2/algorithm-description-design.md` when deriving an algorithm/model.
+6. For the technical topic, use `.claude/layer2/technical-learning-sop.md` to produce a textbook-level daily technical note.
 7. Produce one concrete artifact: code in `src/`, a note under `docs/`, or both.
 8. Update the GitHub Pages docs only after the idea is technically checked.
 9. If the current work is creating a Day N task package for the user to study later, push it immediately after verification so it is available online.
