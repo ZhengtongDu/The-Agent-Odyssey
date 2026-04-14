@@ -27,9 +27,10 @@ Build interview-ready algorithm skill while preserving enough daily time for LLM
 
 ## Problem Selection
 
-- Pick 1 warm-up Easy/Medium only when the topic is new.
-- Pick 1 Medium as the main problem.
-- Add a second Medium or Hard only if time remains.
+- Default to `3-5` problems for every new daily task package.
+- For a new topic, pick 3 problems: 1 warm-up Easy/Medium, 1 main Medium, and 1 close variant.
+- For review or sprint days, pick 4-5 problems around the same reusable pattern.
+- Prefer the local Top 100 Liked snapshot in `docs/leetcode/top-100-liked.md` before adding outside problems.
 - Prefer high-frequency patterns: sliding window, prefix sum, monotonic stack, BFS/DFS, backtracking pruning, DP state compression.
 
 ## Solving Procedure
@@ -53,3 +54,10 @@ Build interview-ready algorithm skill while preserving enough daily time for LLM
 ## Documentation Output
 
 Record only durable insights in `docs/leetcode/`. Avoid copying full problem statements. Use short paraphrases, pattern summaries, and personal mistakes.
+
+Every daily LeetCode task page should:
+
+- Link back to `docs/leetcode/index.md`.
+- Link to the corresponding rows in `docs/leetcode/top-100-liked.md` when possible.
+- Include problem links, core ideas, Python solutions, time/space complexity, and edge cases.
+- Update the Top 100 snapshot status and solution link when the day page is created.

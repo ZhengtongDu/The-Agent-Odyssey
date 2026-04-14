@@ -36,8 +36,9 @@ export default defineConfig({
       {
         text: 'Practice',
         items: [
-          { text: 'LeetCode SOP', link: '/leetcode/' },
-          { text: 'Day 1 Arrays And Hash', link: '/leetcode/day-01-arrays-hash' },
+          { text: 'LeetCode 合集', link: '/leetcode/' },
+          { text: 'Top 100 Liked 题单', link: '/leetcode/top-100-liked' },
+          { text: 'Day 1 数组哈希专项', link: '/leetcode/day-01-arrays-hash' },
           { text: 'Day 1 Least Squares And GD', link: '/notes/week-01/day-01-least-squares-gradient-descent' },
           { text: 'First Principles Note', link: '/notes/first-principles' }
         ]

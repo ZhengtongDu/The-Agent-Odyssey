@@ -17,23 +17,26 @@
 
 | Global Day | Week Day | LeetCode Focus | Technical Focus | Output |
 | --- | --- | --- | --- | --- |
-| Day 1 | Week 1 Day 1 | 数组 + 哈希表基础 | 最小二乘与 Gradient Descent | 文档 + NumPy 线性回归实现 |
-| Day 2 | Week 1 Day 2 | 双指针 | 梯度下降收敛行为与特征缩放 | 实验补充 + 文档修订 |
-| Day 3 | Week 1 Day 3 | 字符串 | MLP 结构与前向传播 | MLP 符号定义与最小实现草稿 |
-| Day 4 | Week 1 Day 4 | 数组/字符串综合 | Backpropagation 推导 | 链式法则与梯度流笔记 |
-| Day 5 | Week 1 Day 5 | 哈希/双指针复盘 | 整理 Week 1 文档 | 页面修订与图示补充 |
-| Day 6 | Week 1 Day 6 | 本周错题复盘 | Week 1 总结与发布检查 | 周总结与下一周衔接 |
+| Day 1 | Week 1 Day 1 | 数组 + 哈希表，4 题 | 最小二乘与 Gradient Descent | 文档 + NumPy 线性回归实现 |
+| Day 2 | Week 1 Day 2 | 双指针/滑动窗口，4 题 | 梯度下降收敛行为与特征缩放 | 实验补充 + 文档修订 |
+| Day 3 | Week 1 Day 3 | 字符串/栈，4 题 | MLP 结构与前向传播 | MLP 符号定义与最小实现草稿 |
+| Day 4 | Week 1 Day 4 | 数组综合/排序，4 题 | Backpropagation 推导 | 链式法则与梯度流笔记 |
+| Day 5 | Week 1 Day 5 | 前缀和/滑动窗口复盘，4 题 | 整理 Week 1 文档 | 页面修订与图示补充 |
+| Day 6 | Week 1 Day 6 | 本周错题复盘，3-5 题 | Week 1 总结与发布检查 | 周总结与下一周衔接 |
 
 ## Day 1 Focus
 
 - LeetCode:
   - 题型：数组、哈希表
+  - 题目：Two Sum, Group Anagrams, Longest Consecutive Sequence, Product of Array Except Self
   - 目标：建立从暴力到哈希优化的基本模式
 - Technical:
   - 主题：最小二乘目标函数、闭式解直觉、梯度下降更新规则
   - 代码：纯 NumPy 实现一元/多元线性回归训练
 - Deliverables:
   - [Day 1 Least Squares And GD](/notes/week-01/day-01-least-squares-gradient-descent)
+  - [LeetCode 练习合集](/leetcode/)
+  - [Top 100 Liked 题单快照](/leetcode/top-100-liked)
   - [Day 1 Arrays And Hash](/leetcode/day-01-arrays-hash)
   - `src/week01/linear_regression_numpy.py`
 
@@ -42,7 +45,8 @@
 - Documentation:
   - Week 1 总览页
   - Day 1 数学推导与实现笔记
-  - Day 1 LeetCode 模式总结
+  - LeetCode 练习合集与 Top 100 Liked 题单快照
+  - Day 1 LeetCode 题解页
 - Code:
   - NumPy 线性回归最小实现
 - Interview Material:
@@ -50,7 +54,7 @@
 
 ## Open Questions
 
-- 之后是否要为每个 Day 单独建立一页 LeetCode 日志？
+- Day 2 之后是否继续按每日单独 LeetCode 题解页沉淀？
 - Week 1 是否需要加入损失曲线图或参数收敛图？
 
 ## End-Of-Week Review

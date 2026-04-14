@@ -10,7 +10,7 @@ hero:
       text: 查看路线图
       link: /roadmap
     - theme: alt
-      text: LeetCode SOP
+      text: LeetCode 合集
       link: /leetcode/
 
 features:

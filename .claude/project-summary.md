@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Date: 2026-04-13
+- Date: 2026-04-14
 - Project: The Agent Odyssey
 - Goal: Build a six-week LLM and Agent architecture learning/code/documentation system for internship preparation.
 - Site stack: VitePress with `markdown-it-mathjax3`, deployed through GitHub Actions to GitHub Pages.
@@ -16,6 +16,7 @@
 - Progressive Disclosure AI memory exists under `CLAUDE.md`, `.claude/layer2/`, and `.claude/layer3/`.
 - Day N progress is tracked in `.claude/progress.md`; the Day 1 task package has been created and pushed, but Day 1 is not yet counted as completed until the user confirms completion.
 - Week 1 and Day 1 docs have been initialized under `docs/weeks/`, `docs/notes/week-01/`, and `docs/leetcode/`.
+- LeetCode practice now has a dedicated collection page, a Top 100 Liked snapshot, and a Day 1 Arrays/Hash page with 4 Python solutions.
 - A NumPy linear regression reference implementation exists at `src/week01/linear_regression_numpy.py`.
 - `init-guide.html` was removed as a generated/process HTML artifact in commit `2c2445b`.
 - Root process source files still include `init-guide.md` and `大模型Agent实习六周学习规划---Gemini.md`.
@@ -47,5 +48,5 @@
 ## Known Next Needs
 
 - Keep `.claude/project-summary.md` updated after major tasks or commits.
-- Start Week 1 documentation with `.claude/layer2/init-weekly-tasks.md` when the user is ready.
-- Wait for the user to work through Day 1 online, answer questions as needed, then either mark Day 1 completed or create the next task package.
+- Wait for the user to work through Day 1 online, answer questions as needed, then either mark Day 1 completed or create the Day 2 task package.
+- Future daily LeetCode task packages should use 3-5 problems from `docs/leetcode/top-100-liked.md` and link back to `docs/leetcode/`.
