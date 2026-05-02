@@ -25,15 +25,15 @@
 
 | # | 题目 | 难度 | 主题 | 计划 Day | 状态 | 题解 |
 | ---: | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 数组 / 哈希表 | [Day 1](/leetcode/day-01-arrays-hash) | 未开始 | [题解](/leetcode/day-01-arrays-hash) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 数组 / 哈希表 | [Day 1](/leetcode/day-01-arrays-hash) | 已做 | [题解](/leetcode/day-01-arrays-hash) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | 链表 / 数学 / 递归 | Day 7 | 未开始 | 待补 |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 哈希表 / 字符串 / 滑动窗口 | Day 2 | 未开始 | 待补 |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 哈希表 / 字符串 / 滑动窗口 | [Day 2](/leetcode/day-02-two-pointers-sliding-window) | 未开始 | [题解](/leetcode/day-02-two-pointers-sliding-window) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | 数组 / 二分 / 分治 | Day 18 | 未开始 | 待补 |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | 双指针 / 字符串 / DP | Day 3 | 未开始 | 待补 |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | 数组 / 双指针 / 贪心 | Day 2 | 未开始 | 待补 |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | 数组 / 双指针 / 贪心 | [Day 2](/leetcode/day-02-two-pointers-sliding-window) | 未开始 | [题解](/leetcode/day-02-two-pointers-sliding-window) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | 哈希表 / 数学 / 字符串 | Day 3 | 未开始 | 待补 |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | 数组 / 字符串 / Trie | Day 3 | 未开始 | 待补 |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | 数组 / 双指针 / 排序 | Day 2 | 未开始 | 待补 |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | 数组 / 双指针 / 排序 | [Day 2](/leetcode/day-02-two-pointers-sliding-window) | 未开始 | [题解](/leetcode/day-02-two-pointers-sliding-window) |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | 哈希表 / 字符串 / 回溯 | Day 14 | 未开始 | 待补 |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | 链表 / 双指针 | Day 7 | 未开始 | 待补 |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | 字符串 / 栈 | Day 3 | 未开始 | 待补 |
@@ -53,7 +53,7 @@
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | 数组 / DP / 贪心 | Day 20 | 未开始 | 待补 |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | 数组 / 回溯 | Day 13 | 未开始 | 待补 |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | 数组 / 数学 / 矩阵 | Day 27 | 未开始 | 待补 |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | 数组 / 哈希表 / 字符串 | [Day 1](/leetcode/day-01-arrays-hash) | 未开始 | [题解](/leetcode/day-01-arrays-hash) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | 数组 / 哈希表 / 字符串 | [Day 1](/leetcode/day-01-arrays-hash) | 已做 | [题解](/leetcode/day-01-arrays-hash) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | 数组 / 回溯 | Day 14 | 未开始 | 待补 |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | 数组 / 分治 / DP | Day 4 | 未开始 | 待补 |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | 数组 / 矩阵 / 模拟 | Day 27 | 未开始 | 待补 |
@@ -80,7 +80,7 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | 数组 / DP | Day 19 | 未开始 | 待补 |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | 数组 / DP | Day 19 | 未开始 | 待补 |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | DP / 树 / DFS | Day 12 | 未开始 | 待补 |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 数组 / 哈希表 / 并查集 | [Day 1](/leetcode/day-01-arrays-hash) | 未开始 | [题解](/leetcode/day-01-arrays-hash) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 数组 / 哈希表 / 并查集 | [Day 1](/leetcode/day-01-arrays-hash) | 已做 | [题解](/leetcode/day-01-arrays-hash) |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 字符串 / DP / 回溯 | Day 14 | 未开始 | 待补 |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | 数组 / 位运算 | Day 26 | 未开始 | 待补 |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | 哈希表 / 链表 | Day 9 | 未开始 | 待补 |
@@ -106,10 +106,10 @@
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | 树 / DFS / 二叉搜索树 | Day 12 | 未开始 | 待补 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | 链表 / 双指针 / 栈 | Day 25 | 未开始 | 待补 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | 树 / DFS / 二叉树 | Day 12 | 未开始 | 待补 |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | 数组 / 前缀和 | [Day 1](/leetcode/day-01-arrays-hash) | 未开始 | [题解](/leetcode/day-01-arrays-hash) |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | 数组 / 前缀和 | [Day 1](/leetcode/day-01-arrays-hash) | 已做 | [题解](/leetcode/day-01-arrays-hash) |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | 数组 / 队列 / 滑动窗口 | Day 23 | 未开始 | 待补 |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | 数组 / 二分 / 分治 | Day 16 | 未开始 | 待补 |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | 数组 / 双指针 | Day 2 | 未开始 | 待补 |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | 数组 / 双指针 | [Day 2](/leetcode/day-02-two-pointers-sliding-window) | 未开始 | [题解](/leetcode/day-02-two-pointers-sliding-window) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | 数组 / 双指针 / 二分 | Day 18 | 未开始 | 待补 |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | 双指针 / 设计 / 排序 | Day 24 | 未开始 | 待补 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 数组 / 二分 / DP | Day 21 | 未开始 | 待补 |

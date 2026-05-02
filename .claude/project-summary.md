@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-- Date: 2026-04-14
+- Date: 2026-05-03
 - Project: The Agent Odyssey
 - Goal: Build a six-week LLM and Agent architecture learning/code/documentation system for internship preparation.
 - Site stack: VitePress with `markdown-it-mathjax3`, deployed through GitHub Actions to GitHub Pages.
@@ -14,9 +14,9 @@
 - VitePress project is initialized under `docs/`.
 - GitHub Pages workflow exists at `.github/workflows/deploy.yml`.
 - Progressive Disclosure AI memory exists under `CLAUDE.md`, `.claude/layer2/`, and `.claude/layer3/`.
-- Day N progress is tracked in `.claude/progress.md`; the Day 1 task package has been created and pushed, but Day 1 is not yet counted as completed until the user confirms completion.
+- Day N progress is tracked in `.claude/progress.md`; Day 1 LeetCode is confirmed completed, but Day 1 is not yet counted as a completed learning day until the technical block is also confirmed.
 - Week 1 and Day 1 docs have been initialized under `docs/weeks/`, `docs/notes/week-01/`, and `docs/leetcode/`.
-- LeetCode practice now has a dedicated collection page, a Top 100 Liked snapshot, and a Day 1 Arrays/Hash page with 4 Python solutions.
+- LeetCode practice now has a dedicated collection page, a Top 100 Liked snapshot, a completed Day 1 Arrays/Hash page, and a prepared Day 2 Two Pointers/Sliding Window page.
 - Site navigation is organized around 总览、周计划、日计划、LeetCode计划、技术学习计划.
 - Daily technical learning now has a dedicated Layer 2 SOP and Day 1 has been expanded into a textbook-level least-squares and gradient-descent chapter.
 - A NumPy linear regression reference implementation exists at `src/week01/linear_regression_numpy.py`.
@@ -50,6 +50,7 @@
 ## Known Next Needs
 
 - Keep `.claude/project-summary.md` updated after major tasks or commits.
-- Wait for the user to work through Day 1 online, answer questions as needed, then either mark Day 1 completed or create the Day 2 task package.
+- Wait for the user to finish or confirm the Day 1 technical learning block before counting Day 1 as completed.
+- Use the prepared Day 2 LeetCode page when the user starts the next algorithm block.
 - Future daily LeetCode task packages should use 3-5 problems from `docs/leetcode/top-100-liked.md` and link back to `docs/leetcode/`.
 - Future daily technical task packages should follow `.claude/layer2/technical-learning-sop.md` and link through `docs/technical/` plus `docs/days/`.

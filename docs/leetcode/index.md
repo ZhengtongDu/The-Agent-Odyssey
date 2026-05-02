@@ -14,13 +14,14 @@
 
 - [Top 100 Liked 题单快照](/leetcode/top-100-liked)
 - [Day 1 数组与哈希专项](/leetcode/day-01-arrays-hash)
+- [Day 2 双指针与滑动窗口入门](/leetcode/day-02-two-pointers-sliding-window)
 
 ## 每日索引
 
 | Day | 主题 | 题量 | 页面 |
 | --- | --- | ---: | --- |
 | Day 1 | 数组 + 哈希表 | 4 | [Day 1 Arrays And Hash](/leetcode/day-01-arrays-hash) |
-| Day 2 | 双指针 + 滑动窗口入门 | 4 | 待创建 |
+| Day 2 | 双指针 + 滑动窗口入门 | 4 | [Day 2 Two Pointers And Sliding Window](/leetcode/day-02-two-pointers-sliding-window) |
 | Day 3 | 字符串 + 栈 | 4 | 待创建 |
 | Day 4 | 数组综合 + 排序 | 4 | 待创建 |
 | Day 5 | 前缀和 + 滑动窗口复盘 | 4 | 待创建 |

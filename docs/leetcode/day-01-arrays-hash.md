@@ -7,6 +7,7 @@
 - Global Day: Day 1 / 36
 - Week Day: Week 1 Day 1
 - 题量：4
+- LeetCode 状态：已完成
 
 ## Focus
 

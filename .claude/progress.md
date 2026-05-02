@@ -10,10 +10,10 @@
 
 ## Current Progress
 
-- Current phase: Week 1 is initialized and the Day 1 task package is prepared for the user, including the reorganized navigation, LeetCode collection, Top 100 Liked snapshot, and textbook-level technical note.
+- Current phase: Week 1 is initialized. Day 1 LeetCode has been confirmed completed by the user, and the Day 2 LeetCode page is prepared. Day 1 technical learning is still not confirmed completed.
 - Current global day: `Day 1`.
-- Current week/day: Week 1 Day 1 active, not yet confirmed completed.
-- Next learning day: `Day 1`, Week 1 Day 1.
+- Current week/day: Week 1 Day 1 active for technical learning, not yet confirmed fully completed.
+- Next learning day: `Day 1`, Week 1 Day 1 technical block; next LeetCode block is `Day 2`.
 - Total planned learning days: `36`.
 - Completed learning days: `0`.
 - Remaining learning days: `36`.
@@ -31,7 +31,7 @@
 
 ## Carry-Over
 
-- None yet.
+- Day 1 technical learning remains to be confirmed before counting the whole learning day as completed.
 
 ## Pulled-Forward Tasks
 

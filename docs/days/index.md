@@ -6,13 +6,13 @@
 
 - Current Day: Day 1 / 36
 - Week Day: Week 1 Day 1
-- 状态：任务包已准备，等待学习完成确认
+- 状态：Day 1 LeetCode 已完成；Day 1 技术学习仍等待完成确认
 
 ## Day 列表
 
 | Day | Week Day | LeetCode | 技术学习 | 状态 |
 | --- | --- | --- | --- | --- |
-| [Day 1](/days/day-01) | Week 1 Day 1 | [数组 + 哈希专项](/leetcode/day-01-arrays-hash) | [最小二乘与梯度下降](/notes/week-01/day-01-least-squares-gradient-descent) | 已准备 |
+| [Day 1](/days/day-01) | Week 1 Day 1 | [数组 + 哈希专项](/leetcode/day-01-arrays-hash) | [最小二乘与梯度下降](/notes/week-01/day-01-least-squares-gradient-descent) | LeetCode 已完成；技术学习待确认 |
 
 ## 每日完成标准
 
